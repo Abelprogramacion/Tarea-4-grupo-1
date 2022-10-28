@@ -176,12 +176,17 @@ span {
 .redes {
   display: flex;
   justify-content: space-evenly;
+  border-radius: 15px;
 }
-/* .redes img:hover {
+.redes img{
+  border-radius: 9px;
+}
+.redes .img:hover {
   transform: rotate(360deg);
   transition: 0.7s;
   cursor: pointer;
-} */
+
+} 
 h3 {
   display: flex;
 }
